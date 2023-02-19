@@ -1,20 +1,41 @@
 .details{
     display:inline-block;
     background-color: cadetblue;
-    width: 25vw;
-    height:100rem;
+    width: 30vw;
+    height:max-content;
     padding: 1rem;
     border-radius: 1rem;
+    font-size: 1.5rem;
 }
 
 .about{
     padding: 1rem;
     display:inline-block;
-    width: 65vw;
-    height: 100rem;
+    width: 50vw;
+    height: max-content;
     vertical-align: top;
+    font-size: 1.5rem;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: burlywood;
+}
+
+article{
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+hr{
+    visibility: hidden;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.title{
+    background-color: bisque;
+    border-radius: 1rem;
 }
