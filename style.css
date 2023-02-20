@@ -6,6 +6,7 @@
     padding: 1rem;
     border-radius: 1rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 .about{
@@ -19,6 +20,7 @@
 
 body{
     background-color: burlywood;
+    height: 100vh;
 }
 
 article{
@@ -38,4 +40,21 @@ abbr{
 .title{
     background-color: bisque;
     border-radius: 1rem;
+}
+
+aside a{
+    display: block;
+}
+
+.internalLink{
+    text-decoration: none;
+    color: black;
+}
+
+.internalLink:hover{
+    background-color: darkcyan;
+}
+
+aside{
+    position: fixed;
 }
